@@ -1,0 +1,425 @@
+:root {
+  --color-text-default: rgb(55, 53, 47) !important;
+  --color-text-default-light: rgba(55, 53, 47, 0.6) !important;
+  --color-text-gray: rgb(155, 154, 151) !important;
+  --color-text-brown: rgb(100, 71, 58) !important;
+  --color-text-orange: rgb(217, 115, 13) !important;
+  --color-text-yellow: rgb(223, 171, 1) !important;
+  --color-text-green: rgb(15, 123, 108) !important;
+  --color-text-blue: rgb(11, 110, 153) !important;
+  --color-text-purple: rgb(105, 64, 165) !important;
+  --color-text-pink: rgb(173, 26, 114) !important;
+  --color-text-red: rgb(224, 62, 62) !important;
+  --color-bg-default: rgb(255, 255, 255) !important;
+  --color-bg-gray: rgb(235, 236, 237) !important;
+  --color-bg-brown: rgb(233, 229, 227) !important;
+  --color-bg-orange: rgb(250, 235, 221) !important;
+  --color-bg-yellow: rgb(251, 243, 219) !important;
+  --color-bg-green: rgb(221, 237, 234) !important;
+  --color-bg-blue: rgb(221, 235, 241) !important;
+  --color-bg-purple: rgb(234, 228, 242) !important;
+  --color-bg-pink: rgb(244, 223, 235) !important;
+  --color-bg-red: rgb(251, 228, 228) !important;
+  --color-bg-gray-light: rgba(235, 236, 237, 0.3) !important;
+  --color-bg-brown-light: rgba(233, 229, 227, 0.3) !important;
+  --color-bg-orange-light: rgba(250, 235, 221, 0.3) !important;
+  --color-bg-yellow-light: rgba(251, 243, 219, 0.3) !important;
+  --color-bg-green-light: rgba(221, 237, 234, 0.3) !important;
+  --color-bg-blue-light: rgba(221, 235, 241, 0.3) !important;
+  --color-bg-purple-light: rgba(234, 228, 242, 0.3) !important;
+  --color-bg-pink-light: rgba(244, 223, 235, 0.3) !important;
+  --color-bg-red-light: rgba(251, 228, 228, 0.3) !important;
+  --color-ui-hover-bg: rgba(55, 53, 47, 0.08) !important;
+  --color-ui-hover-bg-light: rgba(55, 53, 47, 0.03) !important;
+  --color-card-bg: rgb(255, 255, 255) !important;
+  --color-accent-bg: rgb(46, 170, 220) !important;
+  --color-border-default: rgba(235, 236, 237, 0.8) !important;
+  --color-border-dark: rgba(55, 53, 47, 0.16) !important;
+  --color-border-mercado: #1F1F1F !important;
+  --color-nav-bg: rgb(255, 255, 255) !important;
+  --color-nav-border: #1F1F1F !important;
+	--img-opacity: 1 !important;
+	--color-button-bg: #1F1F1F !important;
+	--color-button-text: #FFFFFF !important;
+	--color-button-text-hover: #FFFFFF !important;
+	--color-button-bg-hover: #D80286 !important;
+	--color-link: #D80286 !important;
+	--link-opacity: 0.7 !important;
+}
+
+body {
+  animation: fadeInDown 1.3s !important;
+}
+
+img {
+  opacity: var(--img-opacity) !important;
+}
+
+.notion-header__content>div {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.notion-header__cover {
+  max-height: 500px !important;
+  height: 500px !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+.notion-header__description {
+  font-size: 14px !important;
+}
+
+.notion-text__content {
+  padding: 10px 2px !important;
+  margin: 0 !important;
+}
+
+.notion-semantic-string .link {
+  color: var(--color-link) !important;
+  border-bottom: 2px dotted var(--color-link) !important;
+}
+
+.notion-navbar .notion-breadcrumb {
+  display: none !important;
+}
+
+.notion-collection__header {
+  display: none !important;
+}
+
+.notion-header__title, .notion-heading, .notion-collection__header, .notion-property__title {
+  font-family: 'Playfair Display', serif !important;
+}
+
+.notion-page__properties .notion-property.notion-property__text em {
+  text-align: center !important;
+  font-size: 2rem !important;
+  font-family: 'Playfair Display', serif !important;
+}
+
+.notion-property.notion-property__text em {
+  text-align: center !important;
+  font-size: 1.5rem !important;
+  font-family: 'Playfair Display', serif !important;
+}
+
+.notion-navbar {
+  background: transparent !important;
+  position: fixed !important;
+  z-index: 28 !important;
+  display: flex !important;
+  margin: 5px 0px !important;
+  right: 0 !important;
+  left: 0 !important;
+  top: 0 !important;
+}
+
+.notion-navbar > a {
+  display: none !important;
+}
+
+.notion-callout.border {
+  border: 2px dashed !important;
+}
+
+.notion-callout.color-gray-light.border {
+  border: 2px dashed var(--color-text-gray) !important;
+  background: none !important;
+}
+
+.notion-callout.color-brown-light.border {
+  border: 2px dashed var(--color-text-brown) !important;
+  background: none !important;
+}
+
+.notion-callout.color-orange-light.border {
+  border: 2px dashed var(--color-text-orange) !important;
+  background: none !important;
+}
+
+.notion-callout.color-yellow-light.border {
+  border: 2px dashed var(--color-text-yellow) !important;
+  background: none !important;
+}
+
+.notion-callout.color-green-light.border {
+  border: 2px dashed var(--color-text-green) !important;
+  background: none !important;
+}
+
+.notion-callout.color-blue-light.border {
+  border: 2px dashed var(--color-text-blue) !important;
+  background: none !important;
+}
+
+.notion-callout.color-purple-light.border {
+  border: 2px dashed var(--color-text-purple) !important;
+  background: none !important;
+}
+
+.notion-callout.color-pink-light.border {
+  border: 2px dashed var(--color-text-pink) !important;
+  background: none !important;
+}
+
+.notion-callout.color-red-light.border {
+  border: 2px dashed var(--color-text-red) !important;
+  background: none !important;
+}
+
+.notion-bulleted-list {
+  list-style-type: square !important;
+}
+
+.notion-bookmark {
+  border-radius: 0px !important;
+}
+
+.notion-semantic-string .link {
+  opacity: var(--link-opacity) !important;
+}
+
+.notion-collection-gallery .notion-property.notion-property__number, .notion-page__property .notion-property.notion-property__number {
+  font-size: 1rem !important;
+  padding-bottom: 5px !important;
+}
+
+.notion-collection-card__content .notion-property__select .notion-pill {
+  font-size: 0.95em !important;
+  border: solid 1px #7a7a7a !important;
+}
+
+.notion-divider {
+  border-bottom: 3px solid var(--color-border-mercado) !important;
+}
+
+.notion-collection-card .notion-property__title {
+  font-size: 1.875rem !important;
+}
+
+.notion-property__title .notion-property__title__icon-wrapper {
+  display: none !important;
+}
+
+.notion-pill.pill-default {
+  background: none !important;
+}
+
+.notion-pill.large {
+  font-size: 0.75em !important;
+  line-height: 18px !important;
+}
+
+.notion-pill, .notion-collection-table__cell.multi_select .notion-pill, .notion-collection-list__item-property .notion-property__select .notion-pill {
+  color: var(--color-text-default) !important;
+  font-size: 0.75em !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  border: solid 1px var(--color-border-dark) !important;
+  padding: 2px 8px !important;
+  border-radius: 0 !important;
+}
+
+.notion-collection-gallery .notion-collection-card__cover.large, .notion-collection-card__cover.large>span, .notion-collection-card__cover.large img {
+  height: 300px !important;
+  max-height: 300px !important;
+}
+
+.notion-collection-gallery .notion-collection-card {
+  border: 2px solid var(--color-border-mercado) !important;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05) !important;
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12) !important;
+}
+
+.notion-collection-gallery .notion-collection-card:hover {
+  background: var(--color-card-bg) !important;
+  transform: scale(1.05) !important;
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06) !important;
+}
+
+.notion-collection-card__cover img {
+  border-radius: 0px !important;
+}
+
+.notion-collection-gallery .notion-collection-card__property:last-child {
+  justify-content: flex-end !important;
+  padding-top: 23px !important;
+  padding-right: 13px !important;
+  padding-bottom: 5px !important;
+}
+
+.notion-collection-gallery {
+  border-top: none !important;
+  gap: 36px !important;
+}
+
+.notion-collection-gallery .notion-property__text {
+  font-size: 0.975rem !important;
+  font-weight: 500 !important;
+  padding-bottom: 7px !important;
+}
+
+.notion-property__text {
+  font-size: 0.775rem !important;
+  padding-bottom: 7px !important;
+}
+
+.notion-caption {
+  text-align: center !important;
+}
+
+.notion-page__properties .notion-property {
+  justify-content: center !important;
+}
+
+.notion-page__properties .notion-property.notion-property__text {
+  text-align: center !important;
+}
+
+.notion-page__properties .notion-property__text .link {
+  border: 1px solid !important;
+  color: var(--color-button-text) !important;
+  background: var(--color-button-bg) !important;
+  opacity: 1 !important;
+  padding: 7px 25px !important;
+  box-shadow: inset 0 0 0 0 var(--color-button-bg-hover) !important;
+  -webkit-transition: ease-out 0.4s !important;
+  -moz-transition: ease-out 0.4s !important;
+  transition: ease-out 0.4s !important;
+}
+
+.notion-page__properties .notion-property__text .link:hover {
+  color: var(--color-button-text-hover) !important;
+  box-shadow: inset 400px 0 0 0 var(--color-button-bg-hover) !important;
+}
+
+.notion-page__property-name {
+  display: none !important;
+}
+
+.notion-page__property {
+  display: flex !important;
+}
+
+.notion-page__properties .notion-semantic-string .individual>div {
+  width: 23px !important;
+  height: 23px !important;
+}
+
+.notion-semantic-string .individual {
+  line-height: 2 !important;
+}
+
+.notion-toggle.bg-brown {
+  display: none !important;
+}
+
+.notion-quote.bg-brown .notion-link {
+  border: 1px solid !important;
+  padding: 12px 25px !important;
+  cursor: pointer !important;
+  background: var(--color-button-bg) !important;
+  color: var(--color-button-text) !important;
+  opacity: 1 !important;
+  box-shadow: inset 0 0 0 0 var(--color-button-bg-hover) !important;
+  -webkit-transition: ease-out 0.4s !important;
+  -moz-transition: ease-out 0.4s !important;
+  transition: ease-out 0.4s !important;
+}
+
+.notion-quote.bg-brown .notion-link:hover {
+  color: var(--color-button-text-hover) !important;
+  box-shadow: inset 400px 0 0 0 var(--color-button-bg-hover) !important;
+}
+
+.notion-quote.bg-brown {
+  background: none !important;
+  align-items: center !important;
+  font-size: 16px !important;
+  border: none !important;
+  text-align: center !important;
+  margin: 15px 0px !important;
+}
+
+.notion-collection-board, .notion-collection-list {
+  border-top: none !important;
+}
+
+.notion-collection-list {
+  overflow: auto !important;
+}
+
+.notion-collection-gallery .notion-property__text {
+  font-size: 0.975rem !important;
+  font-weight: 500 !important;
+  padding-bottom: 7px !important;
+  z-index: 20 !important;
+}
+
+.notion-collection-gallery .notion-property__text .link {
+  color: var(--color-button-text) !important;
+  background: var(--color-button-bg) !important;
+  opacity: 1 !important;
+  border: 1px solid var(--color-border-dark) !important;
+  padding: 10px 25px !important;
+  box-shadow: inset 0 0 0 0 var(--color-button-bg-hover) !important;
+  -webkit-transition: ease-out 0.4s !important;
+  -moz-transition: ease-out 0.4s !important;
+  transition: ease-out 0.4s !important;
+}
+
+.notion-collection-gallery .notion-property__text .link:hover {
+  color: var(--color-button-text-hover) !important;
+  box-shadow: inset 400px 0 0 0 var(--color-button-bg-hover) !important;
+}
+
+.notion-toggle.bg-gray {
+  background: var(--color-nav-bg) !important;
+  max-width: 290px !important;
+  padding: 3px 10px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  position: fixed !important;
+  z-index: 29 !important;
+  display: flex !important;
+  border: 1px solid var(--color-nav-border) !important;
+  margin: 10px 60px !important;
+  right: 0 !important;
+  top: 0 !important;
+}
+
+.notion-toggle.bg-gray a {
+  border-bottom: none !important;
+}
+
+.notion-toggle.bg-gray .notion-toggle__summary::before {
+  background: none !important;
+  padding: 1px 0px !important;
+}
+
+.notion-toggle.bg-gray .notion-toggle__content {
+  -webkit-padding-start: calc(1.2em + 4px) !important;
+  padding-inline-start: calc(1.2em + 4px) !important;
+  margin-top: 5px !important;
+  max-height: 333px !important;
+  overflow: auto !important;
+}
+
+@media (max-width: 546px) {
+  .notion-navbar {
+    box-shadow: none !important;
+  }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0 !important;
+        top: -50px !important;
+    }
+    100% {
+        opacity: 1 !important;
+        top: 0 !important;
+    }
+}
