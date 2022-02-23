@@ -1,45 +1,93 @@
-:root {
-  --color-text-default: rgb(255, 255, 255, 0.9) !important;
-  --color-text-default-light: rgb(255, 255, 255, 0.75) !important;
-  --color-text-gray: rgba(151, 154, 155, 0.95) !important;
-  --color-text-brown: #937264 !important;
-  --color-text-orange: #FFA344 !important;
-  --color-text-yellow: #FFDC49 !important;
-  --color-text-green: #4DAB9A !important;
-  --color-text-blue: #529CCA !important;
-  --color-text-purple: #9A6DD7 !important;
-  --color-text-pink: #E255A1 !important;
-  --color-text-red: #FF7369 !important;
-  --color-bg-default: #2f3437 !important;
-  --color-bg-gray: #454B4E !important;
-  --color-bg-brown: #434040 !important;
-  --color-bg-orange: #594A3A !important;
-  --color-bg-yellow: #59563B !important;
-  --color-bg-green: #354C4B !important;
-  --color-bg-blue: #364954 !important;
-  --color-bg-purple: #443F57 !important;
-  --color-bg-pink: #533B4C !important;
-  --color-bg-red: #594141 !important;
-  --color-bg-gray-light: rgba(69, 75, 78, 0.3) !important;
-  --color-bg-brown-light: rgba(67, 64, 64, 0.3) !important;
-  --color-bg-orange-light: rgba(89, 74, 58, 0.3) !important;
-  --color-bg-yellow-light: rgba(89, 86, 59, 0.3) !important;
-  --color-bg-green-light: rgba(53, 76, 75, 0.3) !important;
-  --color-bg-blue-light: rgba(120, 162, 187, 0.3) !important;
-  --color-bg-purple-light: rgba(68, 63, 87, 0.3) !important;
-  --color-bg-pink-light: rgba(83, 59, 76, 0.3) !important;
-  --color-bg-red-light: rgba(89, 65, 65, 0.3) !important;
-  --color-ui-hover-bg: rgb(71,76,80) !important;
-  --color-ui-hover-bg-light: rgb(71,76,80) !important;
-  --color-card-bg: #2D2F34 !important;
-  --color-accent-bg: #364954 !important;
-  --color-border-default: #484848 !important;
-  --color-border-dark: rgb(69, 75, 78) !important;
-  --color-nav-bg: #2D2F34 !important;
-  --color-border-callout: #484848 !important;
-	--img-opacity: 0.8 !important;
-	--color-body-bg: #1F2023 !important;
-	--color-callout-bg: #27292D !important;
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-text-default: rgb(55, 53, 47) !important;
+    --color-text-default-light: rgba(55, 53, 47, 0.6) !important;
+    --color-text-gray: rgb(155, 154, 151) !important;
+    --color-text-brown: rgb(100, 71, 58) !important;
+    --color-text-orange: rgb(217, 115, 13) !important;
+    --color-text-yellow: rgb(223, 171, 1) !important;
+    --color-text-green: rgb(15, 123, 108) !important;
+    --color-text-blue: rgb(11, 110, 153) !important;
+    --color-text-purple: rgb(105, 64, 165) !important;
+    --color-text-pink: rgb(173, 26, 114) !important;
+    --color-text-red: rgb(224, 62, 62) !important;
+    --color-bg-default: rgb(255, 255, 255) !important;
+    --color-bg-gray: rgb(235, 236, 237) !important;
+    --color-bg-brown: rgb(233, 229, 227) !important;
+    --color-bg-orange: rgb(250, 235, 221) !important;
+    --color-bg-yellow: rgb(251, 243, 219) !important;
+    --color-bg-green: rgb(221, 237, 234) !important;
+    --color-bg-blue: rgb(221, 235, 241) !important;
+    --color-bg-purple: rgb(234, 228, 242) !important;
+    --color-bg-pink: rgb(244, 223, 235) !important;
+    --color-bg-red: rgb(251, 228, 228) !important;
+    --color-bg-gray-light: rgba(235, 236, 237, 0.3) !important;
+    --color-bg-brown-light: rgba(233, 229, 227, 0.3) !important;
+    --color-bg-orange-light: rgba(250, 235, 221, 0.3) !important;
+    --color-bg-yellow-light: rgba(251, 243, 219, 0.3) !important;
+    --color-bg-green-light: rgba(221, 237, 234, 0.3) !important;
+    --color-bg-blue-light: rgba(221, 235, 241, 0.3) !important;
+    --color-bg-purple-light: rgba(234, 228, 242, 0.3) !important;
+    --color-bg-pink-light: rgba(244, 223, 235, 0.3) !important;
+    --color-bg-red-light: rgba(251, 228, 228, 0.3) !important;
+    --color-ui-hover-bg: rgba(55, 53, 47, 0.08) !important;
+    --color-ui-hover-bg-light: rgba(55, 53, 47, 0.03) !important;
+    --color-card-bg: rgb(255, 255, 255) !important;
+    --color-accent-bg: rgb(46, 170, 220) !important;
+    --color-border-default: rgba(235, 236, 237, 0.8) !important;
+    --color-border-dark: rgba(55, 53, 47, 0.16) !important;
+    --color-nav-bg: rgb(255, 255, 255) !important;
+		--color-border-callout: rgba(235, 236, 237, 0.8) !important;
+		--img-opacity: 1 !important;
+		--color-body-bg: #FBFBFD !important;
+		--color-callout-bg: rgb(255, 255, 255) !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text-default: rgb(255, 255, 255, 0.9) !important;
+	  --color-text-default-light: rgb(255, 255, 255, 0.75) !important;
+    --color-text-gray: rgba(151, 154, 155, 0.95) !important;
+    --color-text-brown: #937264 !important;
+    --color-text-orange: #FFA344 !important;
+    --color-text-yellow: #FFDC49 !important;
+    --color-text-green: #4DAB9A !important;
+    --color-text-blue: #529CCA !important;
+    --color-text-purple: #9A6DD7 !important;
+    --color-text-pink: #E255A1 !important;
+    --color-text-red: #FF7369 !important;
+    --color-bg-default: #2f3437 !important;
+    --color-bg-gray: #454B4E !important;
+    --color-bg-brown: #434040 !important;
+    --color-bg-orange: #594A3A !important;
+    --color-bg-yellow: #59563B !important;
+    --color-bg-green: #354C4B !important;
+    --color-bg-blue: #364954 !important;
+    --color-bg-purple: #443F57 !important;
+    --color-bg-pink: #533B4C !important;
+    --color-bg-red: #594141 !important;
+    --color-bg-gray-light: rgba(69, 75, 78, 0.3) !important;
+    --color-bg-brown-light: rgba(67, 64, 64, 0.3) !important;
+    --color-bg-orange-light: rgba(89, 74, 58, 0.3) !important;
+    --color-bg-yellow-light: rgba(89, 86, 59, 0.3) !important;
+    --color-bg-green-light: rgba(53, 76, 75, 0.3) !important;
+    --color-bg-blue-light: rgba(120, 162, 187, 0.3) !important;
+    --color-bg-purple-light: rgba(68, 63, 87, 0.3) !important;
+    --color-bg-pink-light: rgba(83, 59, 76, 0.3) !important;
+    --color-bg-red-light: rgba(89, 65, 65, 0.3) !important;
+    --color-ui-hover-bg: rgb(71,76,80) !important;
+    --color-ui-hover-bg-light: rgb(71,76,80) !important;
+    --color-card-bg: #2D2F34 !important;
+    --color-accent-bg: #364954 !important;
+    --color-border-default: #484848 !important;
+    --color-border-dark: rgb(69, 75, 78) !important;
+    --color-nav-bg: #2D2F34 !important;
+    --color-border-callout: #484848 !important;
+		--img-opacity: 0.8 !important;
+		--color-body-bg: #1F2023 !important;
+		--color-callout-bg: #27292D !important;
+  }
 }
 
 html {
