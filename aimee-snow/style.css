@@ -160,10 +160,10 @@ body {
 
 @media screen and (max-width: 768px) {
   .notion-header__cover {
-    max-height: 30vh !important;
-    height: 30vh !important;
-    overflow: hidden !important;
-    position: relative !important;
+    max-height: 30vh;
+    height: 30vh;
+    overflow: hidden;
+    position: relative;
   }
   .notion-page__properties .notion-property {
     justify-content: left !important;
@@ -209,10 +209,10 @@ body {
 
 @media screen and (min-width: 769px) {
   .notion-header__cover {
-    max-height: 500px !important;
-    height: 500px !important;
-    overflow: hidden !important;
-    position: relative !important;
+    max-height: 500px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
   }
   .notion-page__properties .notion-property {
     justify-content: center !important;
