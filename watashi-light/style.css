@@ -1,0 +1,301 @@
+:root {
+  --color-text-default: rgb(55, 53, 47);
+  --color-text-default-light: rgba(55, 53, 47, 0.6);
+  --color-text-gray: rgb(155, 154, 151);
+  --color-text-brown: rgb(100, 71, 58);
+  --color-text-orange: rgb(217, 115, 13);
+  --color-text-yellow: rgb(223, 171, 1);
+  --color-text-green: rgb(15, 123, 108);
+  --color-text-blue: rgb(11, 110, 153);
+  --color-text-purple: rgb(105, 64, 165);
+  --color-text-pink: rgb(173, 26, 114);
+  --color-text-red: rgb(224, 62, 62);
+  --color-bg-default: rgb(255, 255, 255);
+  --color-bg-gray: rgb(235, 236, 237);
+  --color-bg-brown: rgb(233, 229, 227);
+  --color-bg-orange: rgb(250, 235, 221);
+  --color-bg-yellow: rgb(251, 243, 219);
+  --color-bg-green: rgb(221, 237, 234);
+  --color-bg-blue: rgb(221, 235, 241);
+  --color-bg-purple: rgb(234, 228, 242);
+  --color-bg-pink: rgb(244, 223, 235);
+  --color-bg-red: rgb(251, 228, 228);
+  --color-bg-gray-light: rgba(235, 236, 237, 0.3);
+  --color-bg-brown-light: rgba(233, 229, 227, 0.3);
+  --color-bg-orange-light: rgba(250, 235, 221, 0.3);
+  --color-bg-yellow-light: rgba(251, 243, 219, 0.3);
+  --color-bg-green-light: rgba(221, 237, 234, 0.3);
+  --color-bg-blue-light: rgba(221, 235, 241, 0.3);
+  --color-bg-purple-light: rgba(234, 228, 242, 0.3);
+  --color-bg-pink-light: rgba(244, 223, 235, 0.3);
+  --color-bg-red-light: rgba(251, 228, 228, 0.3);
+  --color-ui-hover-bg: rgba(55, 53, 47, 0.08);
+  --color-ui-hover-bg-light: rgba(55, 53, 47, 0.03);
+  --color-card-bg: rgb(255, 255, 255);
+  --color-accent-bg: rgb(46, 170, 220);
+  --color-border-default: rgba(235, 236, 237, 0.8);
+  --color-border-dark: rgba(55, 53, 47, 0.16);
+  --color-nav-bg: rgb(255, 255, 255);
+	--color-border-callout: rgba(235, 236, 237, 0.8);
+	--img-opacity: 1;
+	--color-body-bg: #FBFBFD;
+	--color-callout-bg: rgb(255, 255, 255);
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  background: var(--color-body-bg) !important;
+  animation: fadeInDown 1.3s !important;
+}
+
+img {
+  opacity: var(--img-opacity) !important;
+}
+
+.notion-text__content {
+  padding: 10px 2px !important;
+  margin: 0 !important;
+}
+
+.notion-header__description {
+  font-size: 14px !important;
+}
+
+.notion-navbar {
+  display: none !important;
+}
+
+.super-content.max-width {
+  max-width: 1000px !important;
+  margin: auto !important;
+}
+
+.notion-header__title {
+  font-weight: 700 !important;
+  padding: 2px !important;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  font-size: 1.5rem !important;
+  line-height: 2.5rem !important;
+  min-height: 48px !important;
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+  text-align: center !important;
+}
+
+.notion-header__title {
+  margin-top: -21px !important;
+}
+
+.notion-header__content>div {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.notion-header {
+  margin-bottom: -15px !important;
+}
+
+h1.notion-heading {
+  font-size: 1rem !important;
+  border: solid 1px var(--color-border-callout) !important;
+  text-align: center !important;
+  border-radius: 20px !important;
+  padding: 10px !important;
+}
+
+h1.notion-heading .notion-semantic-string .link {
+  border-bottom: none !important;
+  opacity: 1 !important;
+  font-weight: 500 !important;
+  color: inherit !important;
+  padding: 10px 10px !important;
+  transition: all 100ms cubic-bezier(0.190, 1.000, 0.220, 1.000) !important;
+}
+
+h1.notion-heading .notion-semantic-string .link:hover {
+  font-weight: 700 !important;
+  transition: all 100ms cubic-bezier(0.190, 1.000, 0.220, 1.000) !important;
+}
+
+h2.notion-heading {
+  margin-top: 0.75rem !important;
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+  text-align: center !important;
+}
+
+h3.notion-heading {
+  margin-bottom: .75rem !important;
+}
+
+.notion-callout.bg-gray-light {
+  background: var(--color-bg-gray-light) !important;
+}
+
+.notion-callout.bg-brown-light {
+  background: var(--color-bg-brown-light) !important;
+}
+
+.notion-callout.bg-orange-light {
+  background: var(--color-bg-orange-light) !important;
+}
+
+.notion-callout.bg-yellow-light {
+  background: var(--color-bg-yellow-light) !important;
+}
+
+.notion-callout.bg-green-light {
+  background: var(--color-bg-green-light) !important;
+}
+
+.notion-callout.bg-blue-light {
+  background: var(--color-bg-blue-light) !important;
+}
+
+.notion-callout.bg-purple-light {
+  background: var(--color-bg-purple-light) !important;
+}
+
+.notion-callout.bg-pink-light {
+  background: var(--color-bg-pink-light) !important;
+}
+
+.notion-callout.bg-red-light {
+  background: var(--color-bg-red-light) !important;
+}
+
+.notion-callout {
+  display: block !important;
+  box-shadow: rgb(0 0 0 / 10%) 0 7px 25px 0 !important;
+  -webkit-transition: all 800ms cubic-bezier(0.190, 1.000, 0.220, 1.000) !important;
+  transition: all 800ms cubic-bezier(0.190, 1.000, 0.220, 1.000) !important;
+  padding: 16px 16px 16px 16px !important;
+  background: var(--color-callout-bg) !important;
+  border-radius: 8px !important;
+}
+
+.notion-callout__content {
+  -webkit-margin-start: 0px !important;
+  margin-inline-start: 0px !important;
+}
+
+.notion-callout:hover {
+  box-shadow: rgba(50,50,93,.25) 0 30px 60px -12px !important;
+  transform: translateY(-5px) !important;
+  -webkit-transition: all 800ms cubic-bezier(0.190, 1.000, 0.220, 1.000) !important;
+  transition: all 800ms cubic-bezier(0.190, 1.000, 0.220, 1.000) !important;
+}
+
+.notion-callout.border {
+  border: none !important;
+}
+
+.notion-caption {
+  text-align: center !important;
+}
+
+.notion-collection-list {
+  overflow: auto !important;
+}
+
+.notion-collection {
+  overflow: auto !important;
+  max-height: 399px !important;
+}
+
+.notion-collection-gallery {
+  padding: 16px 1px 4px 1px !important;
+}
+
+.notion-quote {
+  font-size: 1em !important;
+}
+
+.notion-toggle.bg-orange .notion-text__content {
+  color: #7a7a7a !important;
+  font-weight: 300 !important;
+  background: none !important;
+  font-size: 0.75em !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  font-family: inherit !important;
+  padding: 0px !important;
+  border-bottom: none !important;
+}
+
+.notion-toggle.bg-orange a {
+  border-bottom: none !important;
+}
+
+.notion-toggle.bg-orange .notion-toggle__summary {
+  color: #7a7a7a !important;
+  font-weight: 300 !important;
+  background: none !important;
+  font-size: 0.75em !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  font-family: inherit !important;
+  padding: 0px !important;
+}
+
+.notion-toggle.bg-orange .notion-toggle__summary::before {
+  content: "\02022" !important;
+  font-size: 1.5em !important;
+  background: none !important;
+  padding: 1px 3px !important;
+  margin: -3px 5px 0 2px !important;
+  line-height: 1.1 !important;
+  position: absolute !important;
+}
+
+.notion-toggle.bg-orange .notion-toggle__content {
+  -webkit-padding-start: calc(1.2em + 4px) !important;
+  padding-inline-start: calc(1.2em + 4px) !important;
+  margin-top: 5px !important;
+  max-height: 333px !important;
+  overflow: auto !important;
+}
+
+@media screen and (max-width: 768px) {
+  .notion-toggle.bg-orange {
+    background: var(--color-nav-bg) !important;
+    max-width: 190px !important;
+    padding: 10px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 16px !important;
+    position: fixed !important;
+    z-index: 9999 !important;
+    display: flex !important;
+    border: none !important;
+    border-radius: 8px !important;
+    margin: 20px 20px !important;
+    right: 0 !important;
+    bottom: 40px !important;
+    box-shadow: rgb(0 0 0 / 10%) 0 7px 25px 0 !important;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .notion-toggle.bg-orange {
+    background: var(--color-nav-bg) !important;
+    max-width: 190px !important;
+    padding: 10px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 16px !important;
+    position: fixed !important;
+    z-index: 9999 !important;
+    display: flex !important;
+    border: none !important;
+    border-radius: 8px !important;
+    margin: 20px 20px !important;
+    right: 0 !important;
+    top: 0 !important;
+    box-shadow: rgb(0 0 0 / 10%) 0 7px 25px 0 !important;
+  }
+}
