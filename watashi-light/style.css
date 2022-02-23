@@ -255,7 +255,7 @@ h3.notion-heading {
 .notion-toggle.bg-orange .notion-toggle__content {
   -webkit-padding-start: calc(1.2em + 4px) !important;
   padding-inline-start: calc(1.2em + 4px) !important;
-  margin-top: 5px !important;
+  margin-top: 15px !important;
   max-height: 333px !important;
   overflow: auto !important;
 }
