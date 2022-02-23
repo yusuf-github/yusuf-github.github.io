@@ -1,6 +1,52 @@
+:root {
+  --color-text-default: rgb(255, 255, 255, 0.9) !important;
+  --color-text-default-light: rgb(255, 255, 255, 0.75) !important;
+  --color-text-gray: rgba(151, 154, 155, 0.95) !important;
+  --color-text-brown: #937264 !important;
+  --color-text-orange: #FFA344 !important;
+  --color-text-yellow: #FFDC49 !important;
+  --color-text-green: #4DAB9A !important;
+  --color-text-blue: #529CCA !important;
+  --color-text-purple: #9A6DD7 !important;
+  --color-text-pink: #E255A1 !important;
+  --color-text-red: #FF7369 !important;
+  --color-bg-default: #2f3437 !important;
+  --color-bg-gray: #454B4E !important;
+  --color-bg-brown: #434040 !important;
+  --color-bg-orange: #594A3A !important;
+  --color-bg-yellow: #59563B !important;
+  --color-bg-green: #354C4B !important;
+  --color-bg-blue: #364954 !important;
+  --color-bg-purple: #443F57 !important;
+  --color-bg-pink: #533B4C !important;
+  --color-bg-red: #594141 !important;
+  --color-bg-gray-light: rgba(69, 75, 78, 0.3) !important;
+  --color-bg-brown-light: rgba(67, 64, 64, 0.3) !important;
+  --color-bg-orange-light: rgba(89, 74, 58, 0.3) !important;
+  --color-bg-yellow-light: rgba(89, 86, 59, 0.3) !important;
+  --color-bg-green-light: rgba(53, 76, 75, 0.3) !important;
+  --color-bg-blue-light: rgba(120, 162, 187, 0.3) !important;
+  --color-bg-purple-light: rgba(68, 63, 87, 0.3) !important;
+  --color-bg-pink-light: rgba(83, 59, 76, 0.3) !important;
+  --color-bg-red-light: rgba(89, 65, 65, 0.3) !important;
+  --color-ui-hover-bg: rgb(71,76,80) !important;
+  --color-ui-hover-bg-light: rgb(71,76,80) !important;
+  --color-card-bg: #2D2F34 !important;
+  --color-accent-bg: #364954 !important;
+  --color-border-default: #484848 !important;
+  --color-border-dark: rgb(69, 75, 78) !important;
+  --color-nav-bg: #2D2F34 !important;
+	--img-opacity: 0.8 !important;
+	--color-body-bg: #1F2023 !important;
+}
+
 body {
-  background-color: #F8FAFF !important;
+  background: var(--color-body-bg) !important;
   animation: fadeInDown 1.3s !important;
+}
+
+img {
+  opacity: var(--img-opacity) !important;
 }
 
 .notion-header__content>div {
@@ -43,12 +89,8 @@ body {
 @media (max-width: 546px)
 {
   .notion-navbar {
-    box-shadow: none !important;
+      box-shadow: none !important;
   }
-}
-
-.notion-collection-list, .notion-collection-board {
-  border-top: none !important;
 }
 
 .notion-collection-card__content .notion-property__select .notion-pill {
@@ -90,6 +132,7 @@ body {
 }
 
 .notion-collection-gallery .notion-collection-card:hover {
+  background: var(--color-card-bg) !important;
   box-shadow: rgba(50,50,93,.25) 0 30px 60px -12px !important;
   transform: translateY(-5px) !important;
   -webkit-transition: all 800ms cubic-bezier(0.190, 1.000, 0.220, 1.000) !important;
@@ -157,6 +200,12 @@ body {
   border-bottom: none !important;
 }
 
+.notion-semantic-string  .code .highlighted-color .color-brown {
+  color: #7a7a7a !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
 .notion-semantic-string .highlighted-color .color-brown .code {
   color: #7a7a7a !important;
   display: flex !important;
@@ -174,7 +223,7 @@ body {
     justify-content: left !important;
   }
   .notion-quote.bg-orange {
-    background: #FFFFFF !important;
+    background: var(--color-nav-bg) !important;
     padding: 15px !important;
     justify-content: center !important;
     align-items: center !important;
@@ -191,7 +240,7 @@ body {
     box-shadow: rgb(0 0 0 / 10%) 0 7px 25px 0 !important;
   }
   .notion-quote.bg-gray {
-	  background: #FFFFFF !important;
+	  background: var(--color-nav-bg) !important;
     padding: 7px 7px 10px 1px !important;
     justify-content: center !important;
     align-items: center !important;
@@ -223,7 +272,7 @@ body {
     justify-content: center !important;
   }
   .notion-quote.bg-orange {
-    background: #FFFFFF !important;
+    background: var(--color-nav-bg) !important;
     padding: 15px !important;
     justify-content: center !important;
     align-items: center !important;
@@ -240,7 +289,7 @@ body {
     box-shadow: rgb(0 0 0 / 10%) 0 7px 25px 0 !important;
   }
   .notion-quote.bg-gray {
-	  background: #FFFFFF !important;
+	  background: var(--color-nav-bg) !important;
     padding: 7px 7px 10px 1px !important;
     justify-content: center !important;
     align-items: center !important;
@@ -313,12 +362,12 @@ body {
 }
 
 @keyframes fadeInDown {
-  0% {
-      opacity: 0 !important;
-      top: -50px !important;
-  }
-  100% {
-      opacity: 1 !important;
-      top: 0 !important;
-  }
+    0% {
+        opacity: 0 !important;
+        top: -50px !important;
+    }
+    100% {
+        opacity: 1 !important;
+        top: 0 !important;
+    }
 }
