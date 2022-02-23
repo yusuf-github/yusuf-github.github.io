@@ -50,7 +50,6 @@
 body {
   background: var(--color-body-bg) !important;
   animation: fadeInDown 1.3s !important;
-  font-family: Monospace !important;
 }
 
 img {
