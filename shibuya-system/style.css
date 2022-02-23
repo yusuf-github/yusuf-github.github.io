@@ -142,6 +142,11 @@ img {
   display: none !important;
 }
 
+.notion-header__cover.no-cover {
+  max-height: 140px !important;
+  height: 140px !important;
+}
+
 .notion-header__title, .notion-heading, .notion-collection__header, .notion-property__title {
   font-family: 'Playfair Display', serif !important;
 }
