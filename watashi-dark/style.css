@@ -243,6 +243,7 @@ h3.notion-heading {
 }
 
 .notion-toggle.bg-orange .notion-toggle__summary::before {
+  display: none !important;
   content: "\02022" !important;
   font-size: 1.5em !important;
   background: none !important;
