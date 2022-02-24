@@ -135,7 +135,7 @@ img {
 }
 
 .notion-navbar .notion-breadcrumb {
-  display: none !important;
+  visibility: hidden !important;
 }
 
 .notion-navbar {
@@ -147,10 +147,6 @@ img {
   right: 0 !important;
   left: 0 !important;
   top: 0 !important;
-}
-
-.notion-navbar > a {
-  display: none !important;
 }
 
 .notion-header__content {
