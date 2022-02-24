@@ -1,0 +1,67 @@
+:root {
+	/* text, headings */
+  --color-text-default: rgb(55, 53, 47) !important;
+	/* media caption */
+  --color-text-default-light: rgba(55, 53, 47, 0.6) !important;
+	/* text, quote, toggle, callout colors */
+  --color-text-gray: rgb(155, 154, 151) !important;
+  --color-text-brown: rgb(100, 71, 58) !important;
+  --color-text-orange: rgb(217, 115, 13) !important;
+  --color-text-yellow: rgb(223, 171, 1) !important;
+  --color-text-green: rgb(15, 123, 108) !important;
+  --color-text-blue: rgb(11, 110, 153) !important;
+  --color-text-purple: rgb(105, 64, 165) !important;
+  --color-text-pink: rgb(173, 26, 114) !important;
+  --color-text-red: rgb(224, 62, 62) !important;
+	/* text, quote, toggle background colors */
+  --color-bg-default: rgb(255, 255, 255) !important;
+  --color-bg-gray: rgb(235, 236, 237) !important;
+  --color-bg-brown: rgb(233, 229, 227) !important;
+  --color-bg-orange: rgb(250, 235, 221) !important;
+  --color-bg-yellow: rgb(251, 243, 219) !important;
+  --color-bg-green: rgb(221, 237, 234) !important;
+  --color-bg-blue: rgb(221, 235, 241) !important;
+  --color-bg-purple: rgb(234, 228, 242) !important;
+  --color-bg-pink: rgb(244, 223, 235) !important;
+  --color-bg-red: rgb(251, 228, 228) !important;
+	/* callout background colors */
+  --color-bg-gray-light: rgba(235, 236, 237, 0.3) !important;
+  --color-bg-brown-light: rgba(233, 229, 227, 0.3) !important;
+  --color-bg-orange-light: rgba(250, 235, 221, 0.3) !important;
+  --color-bg-yellow-light: rgba(251, 243, 219, 0.3) !important;
+  --color-bg-green-light: rgba(221, 237, 234, 0.3) !important;
+  --color-bg-blue-light: rgba(221, 235, 241, 0.3) !important;
+  --color-bg-purple-light: rgba(234, 228, 242, 0.3) !important;
+  --color-bg-pink-light: rgba(244, 223, 235, 0.3) !important;
+  --color-bg-red-light: rgba(251, 228, 228, 0.3) !important;
+	/* tags (multi-select, select) colors */
+  --color-pill-default: rgba(206, 205, 202, 0.5) !important;
+  --color-pill-gray: rgba(155, 154, 151, 0.4) !important;
+  --color-pill-brown: rgba(140, 46, 0, 0.2) !important;
+  --color-pill-orange: rgba(245, 93, 0, 0.2) !important;
+  --color-pill-yellow: rgba(233, 168, 0, 0.2) !important;
+  --color-pill-green: rgba(0, 135, 107, 0.2) !important;
+  --color-pill-blue: rgba(0, 120, 223, 0.2) !important;
+  --color-pill-purple: rgba(103, 36, 222, 0.2) !important;
+  --color-pill-pink: rgba(221, 0, 129, 0.2) !important;
+  --color-pill-red: rgba(255, 0, 26, 0.2) !important;
+	/* gallery, board cards color when hovered */
+  --color-ui-hover-bg: rgba(55, 53, 47, 0.08) !important;
+  --color-ui-hover-bg-light: rgba(55, 53, 47, 0.03) !important;
+	/* gallery, board cards background color */
+  --color-card-bg: rgb(255, 255, 255) !important;
+  --color-accent-bg: rgb(46, 170, 220) !important;
+	/* horizontal divider, card border */
+  --color-border-default: rgba(235, 236, 237, 0.8) !important;
+  --color-border-dark: rgba(55, 53, 47, 0.16) !important;
+  /* Additions */
+  --color-special-text: #7A7A7A !important;
+	--color-button-text: #FFFFFF !important;
+	--color-button-text-hover: #FFFFFF !important;
+  --color-button-bg: #1F1F1F !important;
+	--color-button-bg-hover: #D80286 !important;
+  /* Left sidebar */
+	--color-left-sidebar: rgb(55, 53, 47) !important;
+	--color-left-sidebar-border: rgba(235, 236, 237, 0.8) !important;
+	--color-left-sidebar-bg: #FFFFFF !important;
+}
