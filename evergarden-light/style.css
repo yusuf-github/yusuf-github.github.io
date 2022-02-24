@@ -62,7 +62,7 @@
 }
 
 .notion-navbar .notion-breadcrumb {
-  display: none !important;
+  visibility: hidden !important;
 }
 
 .notion-header__cover {
@@ -87,10 +87,6 @@
   height: 3em !important;
 }
 
-.notion-navbar .notion-breadcrumb__item:not(:first-child) {
-  display: none !important;
-}
-
 .notion-navbar {
   background: transparent !important;
   position: fixed !important;
@@ -100,10 +96,6 @@
   right: 0 !important;
   left: 0 !important;
   top: 0 !important;
-}
-
-.notion-navbar > a {
-  display: none !important;
 }
 
 .notion-semantic-string .individual>span .notion-icon {
