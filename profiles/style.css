@@ -224,3 +224,14 @@
   overflow: scroll !important;
   width: fit-content !important;
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.notion-collection-card.calendar::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.notion-collection-card.calendar {
+  -ms-overflow-style: none !important;  /* IE and Edge */
+  scrollbar-width: none !important;  /* Firefox */
+}
