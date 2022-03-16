@@ -198,17 +198,6 @@
   padding: 0px !important;
 }
 
-.notion-toggle.bg-orange .notion-toggle__trigger_icon {
-  display: none !important;
-  content: "\02022" !important;
-  font-size: 1.5em !important;
-  background: none !important;
-  padding: 1px 3px !important;
-  margin: -3px 5px 0 2px !important;
-  line-height: 1.1 !important;
-  position: absolute !important;
-}
-
 .notion-toggle.bg-orange .notion-toggle__content {
   -webkit-padding-start: calc(1.2em + 4px) !important;
   padding-inline-start: calc(1.2em + 4px) !important;
