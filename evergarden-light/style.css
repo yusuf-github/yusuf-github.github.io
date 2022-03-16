@@ -234,7 +234,7 @@
     font-size: 16px !important;
     position: fixed !important;
     z-index: 9999 !important;
-    display: flex !important;
+    display: inline-block !important;
     border: none !important;
     border-radius: 8px !important;
     margin: 20px 20px !important;
@@ -266,7 +266,7 @@
     font-size: 16px !important;
     position: fixed !important;
     z-index: 9999 !important;
-    display: flex !important;
+    display: inline-block !important;
     border: 1px solid rgb(122,122,122, 0.3) !important;
     border-radius: 4px !important;
     margin: 20px 20px !important;
