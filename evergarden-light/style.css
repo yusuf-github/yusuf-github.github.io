@@ -199,7 +199,11 @@
 }
 
 .notion-toggle.bg-orange .notion-toggle__trigger {
-  margin-top: -4px;
+  margin-top: -4px !important;
+}
+
+.notion-toggle.bg-orange .notion-toggle__trigger:hover {
+  background: none !important;
 }
 
 .notion-toggle.bg-orange .notion-toggle__content {
