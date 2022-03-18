@@ -153,10 +153,6 @@ body {
     visibility: hidden;
 }
 
-#block-94a0664a16d3415c9b472fe926fc1da4, #block-55fddca551464be98a012dfcf5018be7 {
-  cursor: pointer;
-}
-
 /* Hide scrollbar for Chrome, Safari and Opera */
 .notion-collection-list::-webkit-scrollbar, .notion-callout__content::-webkit-scrollbar {
   display: none !important;
