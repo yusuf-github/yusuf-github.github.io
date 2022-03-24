@@ -367,6 +367,18 @@ h2.notion-heading:not(.toggle) {
 /* Gallery */
 
 .notion-collection__header {
+  display: none;
+  color: var(--color-special-text);
+  font-weight: 300;
+  background: none;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: inherit;
+  padding: 0px;
+}
+
+.notion-collection__header {
   color: var(--color-special-text);
   font-weight: 300;
   background: none;
