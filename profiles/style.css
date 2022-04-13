@@ -4,6 +4,12 @@
   border-bottom: 5px dotted !important;
 }
 
+/* Hidden block */
+
+.notion-toggle.bg-brown {
+  display: none;
+}
+
 /* Button */
 
 .notion-quote.bg-brown .notion-link {
