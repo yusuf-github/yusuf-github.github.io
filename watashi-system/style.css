@@ -303,6 +303,58 @@ h3.notion-heading {
   overflow: auto !important;
 }
 
+.notion-page__properties {
+  margin-top: 30px !important;
+}
+
+.notion-collection-list {
+  overflow: auto !important;
+  border-top: none !important;
+}
+
+.notion-collection-list__item {
+  width: 100% !important;
+  padding: 10px 10px !important;
+  margin: 5px 0 !important;
+  border-radius: 10px !important;
+  border: 1px solid var(--color-border-default) !important;
+  cursor: pointer !important;
+  color: inherit !important;
+  text-decoration: none !important;
+  position: relative !important;
+}
+
+.notion-collection-list__item-content {
+  padding: 5px 0px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-end !important;
+  align-items: flex-end !important;
+}
+
+.notion-collection-list__item-property .notion-property__select {
+  display: inline-block !important;
+}
+
+.notion-collection-list__item-property .notion-semantic-string {
+  white-space: normal !important;
+}
+
+.notion-collection-list__item .notion-property__title .notion-semantic-string {
+  display: flex !important;
+  align-items: center !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+  white-space: normal !important;
+  text-decoration: none !important;
+  margin-inline-end: 32px !important;
+  margin-inline-start: 4px !important;
+}
+
+.notion-collection-list__item .notion-property__title .notion-semantic-string > span {
+  border-bottom: none !important;
+}
+
 @media screen and (max-width: 768px) {
   .notion-toggle.bg-orange {
     background: var(--color-nav-bg) !important;
