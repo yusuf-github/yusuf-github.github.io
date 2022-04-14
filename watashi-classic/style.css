@@ -255,6 +255,10 @@ h3.notion-heading {
   overflow: auto !important;
 }
 
+.notion-page__properties {
+  margin-top: 30px !important;
+}
+
 @media screen and (max-width: 768px) {
   .notion-toggle.bg-orange {
     background: var(--color-nav-bg) !important;
