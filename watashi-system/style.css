@@ -250,10 +250,12 @@ h3.notion-heading {
   overflow: auto !important;
 }
 
+/*
 .notion-collection {
   overflow: auto !important;
   max-height: 399px !important;
 }
+*/
 
 .notion-collection-gallery {
   padding: 16px 1px 4px 1px !important;
