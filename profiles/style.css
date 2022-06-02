@@ -7,7 +7,7 @@
 /* Hidden block */
 
 .notion-toggle.bg-brown {
-  display: none;
+  display: none !important;
 }
 
 /* Button */
