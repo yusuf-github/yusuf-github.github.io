@@ -63,10 +63,14 @@
   white-space: normal !important;
 }
 
+/*
+
 .notion-collection-gallery .notion-collection-card__cover.large, .notion-collection-card__cover.large>span, .notion-collection-card__cover.large img {
   height: 300px !important;
   max-height: 300px !important;
 }
+
+*/
 
 .notion-collection-card {
   border: 2px solid var(--color-text-default) !important;
