@@ -421,6 +421,10 @@ img {
   overflow: auto !important;
 }
 
+.notion-collection-card__content .notion-property__text, .notion-collection-list__item-content .notion-property__text {
+  padding: 10px 0px !important;
+}
+
 @media (max-width: 546px) {
   .notion-navbar {
     box-shadow: none !important;

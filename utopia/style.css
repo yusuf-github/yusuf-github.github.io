@@ -239,6 +239,10 @@ body {
   font-size: 14px !important;
 }
 
+.notion-collection-card__content .notion-property__text, .notion-collection-list__item-content .notion-property__text {
+  padding: 10px 0px !important;
+}
+
 /* List overflow on mobile view */
 
 .notion-collection-list {

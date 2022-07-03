@@ -339,6 +339,10 @@ h2.notion-heading:not(.toggle) {
   margin: 20px 0px;
 }
 
+.notion-collection-card__content .notion-property__text, .notion-collection-list__item-content .notion-property__text {
+  padding: 10px 0px !important;
+}
+
 /* pill i.e. tags */
 
 .notion-collection-card__content .notion-property__select .notion-pill {
