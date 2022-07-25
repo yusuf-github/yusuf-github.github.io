@@ -96,7 +96,9 @@
   display: -webkit-inline-flex !important;
   display: inline-flex !important;
   position: absolute !important;
-  top: 240px !important;
+  top: 7px !important;
+  height: 3.25rem !important;
+  width: 3.25rem !important;
 }
 
 .notion-property__title .notion-property__title__icon-wrapper > span {
@@ -106,6 +108,7 @@
   border-radius: 50% !important;
   box-shadow: 0 3px 10px rgb(0,0,0,0.2) !important;
 }
+
 
 /* Properties for database pages */
 
@@ -119,7 +122,7 @@
 .notion-collection-card .notion-property__title {
     display: flex !important;
     align-items: flex-start !important;
-    padding: 8px 10px !important;
+    padding: 8px 0px !important;
 }
 
 .notion-page__properties .notion-divider {

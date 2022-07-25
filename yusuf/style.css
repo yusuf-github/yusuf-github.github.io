@@ -428,7 +428,11 @@ h2.notion-heading:not(.toggle) {
 }
 
 .notion-collection-gallery .notion-collection-card .notion-property__title .notion-property__title__icon-wrapper {
-  display: none;
+  display: none !important;
+}
+
+.notion-collection-list__item .notion-property__title .notion-property__title__icon-wrapper {
+  display: none !important;
 }
 
 /* Property */
